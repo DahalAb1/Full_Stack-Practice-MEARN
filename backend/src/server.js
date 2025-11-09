@@ -6,7 +6,8 @@ import path from "path"
 
 import notesRoutes from "./routes/notesRoutes.js"
 import { dataBase } from './config/db.js'
-import rateLimiter from './middleware/ratelimiter.js'
+// IMPORTANT: Linux (Render) is case-sensitive; file is rateLimiter.js not ratelimiter.js
+import rateLimiter from './middleware/rateLimiter.js'
 
 dotenv.config(); 
 
