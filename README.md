@@ -49,6 +49,7 @@ Base from frontend axios: `http://localhost:5001/app`
 Rate limit: 10 req / 20s (global key). If I see 429 on the frontend, the UI changes to a “slow down” state.
 
 
+## Deployement 
 
-
-### Deployement Reamining
+- decided to run backend and front end on same port (have to remove cors implementaion to do this)
+- 
