@@ -52,4 +52,3 @@ Rate limit: 10 req / 20s (global key). If I see 429 on the frontend, the UI chan
 ## Deployement 
 
 - decided to run backend and front end on same port (have to remove cors implementaion to do this)
-- 
